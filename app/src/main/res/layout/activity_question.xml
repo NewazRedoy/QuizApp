@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".QuestionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/quiz_question_that_have_to_answer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_options"
+        android:gravity="center"
+        android:text="@string/options"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+      />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_options"
+        android:gravity="center"
+        android:text="@string/options"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+       />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_options"
+        android:gravity="center"
+        android:text="@string/options"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_options"
+        android:gravity="center"
+        android:text="@string/options"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

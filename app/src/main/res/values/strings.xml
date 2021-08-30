@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApplicationToDo</string>
+    <string name="androiddhina">AndroidDhina</string>
+    <string name="android">Android</string>
+    <string name="play">Play</string>
+    <string name="deen_quiz">Deen Quiz</string>
+    <string name="options">options</string>
+    <string name="quiz_question_that_have_to_answer">Quiz question that have to answer?</string>
+</resources>
