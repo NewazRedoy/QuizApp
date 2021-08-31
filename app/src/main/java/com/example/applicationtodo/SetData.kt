@@ -1,6 +1,7 @@
 package com.example.applicationtodo
 
 object SetData {
+    const val score:String=""
   fun getQuestion(): ArrayList<QuestionData> {
 val que:ArrayList<QuestionData> = arrayListOf()
       val q1=QuestionData(

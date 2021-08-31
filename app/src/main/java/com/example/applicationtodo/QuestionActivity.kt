@@ -10,6 +10,7 @@ import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_question.*
 
 class QuestionActivity : AppCompatActivity() {
+    private var score:Int=0
     private var currentPosition:Int=1
     private var questionList:ArrayList<QuestionData>?=null
     private var selectedOption:Int=1
@@ -42,7 +43,8 @@ class QuestionActivity : AppCompatActivity() {
                 val quiz = questionList!![currentPosition-1]
                 if(selectedOption!=quiz.correct_ans){
                     setColor(selectedOption,R.drawable.wrong_option)
-
+                }else{
+                    score++
                 }
                 setColor(quiz.correct_ans,R.drawable.correct_options)
                 if (currentPosition!=questionList!!.size){
@@ -52,6 +54,7 @@ class QuestionActivity : AppCompatActivity() {
                     setQuestion()
                 }else{
                     var intent= Intent(this,ResultActivity::class.java)
+                    intent.putExtra(SetData.score,score.toString())
                     startActivity(intent)
                 }
             }
