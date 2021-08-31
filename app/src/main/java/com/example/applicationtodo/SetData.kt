@@ -22,7 +22,7 @@ val que:ArrayList<QuestionData> = arrayListOf()
           correct_ans = 2
       )
       val q3=QuestionData(
-          question = "What is the color of a banana",
+          question = "What is the color of a Bee?",
           id = 1,
           option_one = "Red",
           option_two = "Blue",

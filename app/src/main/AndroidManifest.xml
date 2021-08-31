@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationToDo">
         <activity
+            android:name=".ResultActivity"
+            android:exported="true" />
+        <activity
             android:name=".QuestionActivity"
             android:exported="true" />
         <activity

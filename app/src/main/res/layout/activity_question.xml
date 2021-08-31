@@ -10,6 +10,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/questionId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -21,6 +22,7 @@
         tools:layout_editor_absoluteY="53dp" />
 
     <TextView
+        android:id="@+id/option1"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,6 +34,7 @@
       />
 
     <TextView
+        android:id="@+id/option2"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +46,7 @@
        />
 
     <TextView
+        android:id="@+id/option3"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,6 +57,7 @@
         android:layout_marginTop="16dp" />
 
     <TextView
+        android:id="@+id/option4"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
