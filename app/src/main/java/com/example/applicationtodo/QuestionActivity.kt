@@ -50,6 +50,7 @@ class QuestionActivity : AppCompatActivity() {
                 if (currentPosition!=questionList!!.size){
                     setOptionStyle()
                     selectedOption=opt
+                    score++
                     currentPosition++
                     setQuestion()
                 }else{
